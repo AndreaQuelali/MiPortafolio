@@ -1,0 +1,117 @@
+/* Estilos personalizados adicionales */
+
+/* Mejoras para botones */
+.btn-primary {
+  @apply px-6 py-3 bg-gradient-to-r from-primary-600 to-secondary-500 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border-2 border-primary-600 text-primary-600 dark:text-primary-400 font-medium rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+}
+
+/* Mejoras para cards */
+.card {
+  @apply bg-white dark:bg-dark-800 rounded-xl shadow-lg border border-gray-200 dark:border-dark-700 hover:shadow-xl transition-all duration-300;
+}
+
+/* Mejoras para inputs */
+input, textarea {
+  @apply w-full px-4 py-3 border border-gray-300 dark:border-dark-600 rounded-lg bg-white dark:bg-dark-800 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors placeholder-gray-400 dark:placeholder-gray-500;
+}
+
+/* Mejoras para enlaces */
+a {
+  @apply transition-colors duration-200;
+}
+
+/* Mejoras para gradientes */
+.gradient-text {
+  @apply bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent;
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-r from-primary-500 to-secondary-500;
+}
+
+/* Animaciones adicionales */
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+/* Mejoras para iconos */
+.icon-button {
+  @apply p-3 bg-gray-100 dark:bg-dark-800 rounded-lg hover:bg-gray-200 dark:hover:bg-dark-700 transition-colors duration-200 hover:scale-105;
+}
+
+/* Mejoras para navegación */
+.nav-link {
+  @apply capitalize font-medium transition-colors duration-200 hover:text-primary-600 dark:hover:text-primary-400;
+}
+
+.nav-link.active {
+  @apply text-primary-600 dark:text-primary-400;
+}
+
+/* Mejoras para skill bars */
+.skill-bar {
+  @apply w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2 overflow-hidden;
+}
+
+.skill-progress {
+  @apply h-2 rounded-full transition-all duration-1000 ease-out;
+}
+
+/* Mejoras para project cards */
+.project-card {
+  @apply card overflow-hidden hover:shadow-2xl transition-all duration-300;
+}
+
+.project-image {
+  @apply w-full h-48 object-cover transition-transform duration-300;
+}
+
+/* Mejoras para badges */
+.tech-badge {
+  @apply px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 text-sm rounded-full font-medium;
+}
+
+/* Mejoras para el header */
+.header {
+  @apply fixed top-0 w-full z-50 bg-white/80 dark:bg-dark-900/80 backdrop-blur-md border-b border-gray-200 dark:border-dark-700;
+}
+
+/* Mejoras para secciones */
+.section {
+  @apply py-20 px-4;
+}
+
+.section-alt {
+  @apply py-20 px-4 bg-gray-50 dark:bg-dark-800;
+}
+
+/* Mejoras para títulos */
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-4 text-center;
+}
+
+.section-subtitle {
+  @apply text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-center;
+}
+
+/* Mejoras para el hero */
+.hero-title {
+  @apply text-4xl md:text-6xl font-bold mb-6;
+}
+
+.hero-subtitle {
+  @apply text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto;
+}
+
+/* Mejoras para el footer */
+.footer {
+  @apply py-12 px-4 bg-dark-900 text-white;
+}
+
+.footer-link {
+  @apply text-gray-400 hover:text-white transition-colors duration-200;
+}
