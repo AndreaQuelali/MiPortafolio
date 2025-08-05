@@ -20,7 +20,7 @@ function Navbar({ isDark, toggleTheme, scrollToSection, activeSection }) {
             className="flex items-center space-x-2"
           >
             <img
-              src="../../public/icons/aliz-logo.png"
+              src="/icons/aliz-logo.png"
               alt="Aliz Logo"
               className="w-16 h-16"
             />
